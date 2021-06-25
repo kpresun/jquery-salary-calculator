@@ -9,56 +9,38 @@
 </head>
 <body>
     <header>
-       <nav class="navigation">
-           <div class ="container-fluid"></div>
-           <h1 class=""></h1>
-       </nav>
+        <nav class="navigation-bar">
+            <div class="navigation-area">
+                <h1>Salary Calculator</h1>
+                <span class="person-input">Add employee information</span>
+            </div>
+        </nav>
     </header>
     <main>
-        <section class ="input-group">
-            <form class = "row">
-                <span class="input-group=text">Add Employee Information</span>
-                <label for="first name">First Name:
-                    <input id="firstName" type="text"
-                </label>
-            </form>
-        </section>
         <section>
-            <table class"table">
-                <thead>
-                    <tr>
-                        <th Scope="col">First Name</th>
-                        <th Scope="col">Last Name</th>
-                        <th Scope="col">Employee ID</th>
-                        <th Scope="col">Job Title</th>
-                        <th Scope="col">Annual Salary</th>
-                        <th Scope="col"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tbody id="employeeList">
-                        <tr>
-                            <td scope="row">Kong</td>
-                            <td>Smith</td>
-                            <td>1234</td>
-                            <td>Developer</td>
-                            <td>10<td>
-                            <td>
-                                <button type="button" class="button">delete</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </tbody>
-                <tfooter id="totalSalary">
-                    <tr>
-                        <td scope="row"></td>
-                    </tr>
-                </tfooter>
-            </table>
+            <form class="input-form">
+                <label for="firstname">First Name
+                    <input id="firstname" type="text" aria-label="First Name" class="item-input"/>
+                </label>
+                <label for="lastname">Last Name
+                    <input id="lastname" type="text" aria-label="Last Name" class="item-input"/>
+                </label>
+                <label for="idnumber">ID Number
+                    <input id="idnumber" type="text" aria-label="ID Number" class="item-input"/>
+                </label>
+                <label for="jobtitle">Job Title
+                    <input id="jobtitle" type="text" aria-label="Title" class="item-input"/>
+                </label>
+                <label for="salary">Salary
+                    <input id="salary" type="text" aria-label="Salary" class="item-input"/>
+                </label>
+                <button id="addEmployeebutton" type="button">Add Employee</button>
+            </form>
+
+            <form action=""></form>
         </section>
     </main>
     <footer></footer>
-
 </body>
 <script src="jQuery.js"></script>
 <script src="Client.js"></script>
