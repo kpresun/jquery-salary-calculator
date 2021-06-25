@@ -19,9 +19,34 @@ function Employee (firstName, lastName, employeeID, jobTitle, annualSalary) {
 console.log(new Employee('Kong', 'Yang', '1234', 'developer', '12345' ));
 
 // #ToDO: Add Page APIs
+let firstName= function() {
+    return $('#firstname').val();
+}
+let lastName= function() {
+    return $('#lastname').val();
+}
+let idNumber= function() {
+    return $('#idnumber').val();
+}
+let jobTitle= function() {
+    return $('#').val();
+}
+let empSalary= function() {
+    return $('#').val();
+}
 // $('#firstname')...
+
 // #Todo: Clear form
+$('#firstname').val('');
+$('#lastname').val('');
+$('#idnumber').val('');
+$('#jobtitle').val('');
+$('#salary').val('');
+
+
 //#todo: add employee data to the table
+
+
 //#todo: empty table
 //#todo: handler to add new employee
 // #todo: handler to delete an employee
