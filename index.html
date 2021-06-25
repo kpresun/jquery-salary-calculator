@@ -36,8 +36,40 @@
                 </label>
                 <button id="addEmployeebutton" type="button">Add Employee</button>
             </form>
+        </section>
 
-            <form action=""></form>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="column">First Name</th>
+                        <th scope="column">Last Name</th>
+                        <th scope="column">ID Number</th>
+                        <th scope="column">Job Title</th>
+                        <th scope="column">Annual Salary</th>
+                        <th scope="column"></th>
+                    </tr>
+                </thead>
+                <tbody id="employee-list">
+                    <tr>
+                        <td scope="row">John</td>
+                        <td scope="row">Doe</td>
+                        <td scope="row">13579</td>
+                        <td scope="row">Software Developer</td>
+                        <td scope="row">$60,000</td>
+                        <td><button type="button" class="red-button">Delete</button></td>
+                    </tr>
+                </tbody>
+                <tfoot id="total-salary">
+                    <tr>
+                        <td scope="row"></td>
+                        <td scope="row"></td>
+                        <td scope="row"></td>
+                        <td scope="row">Totat:</td>
+                        <td scope="row">$60,000</td>
+                    </tr>
+                </tfoot>
+            </table>
         </section>
     </main>
     <footer></footer>
